@@ -1,0 +1,212 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Gading's Hideout",
+    "home_page_url": "https://gading.dev",
+    "feed_url": "https://gading.dev/rss/feed.json",
+    "description": "The personal blog of Gading Nasution.",
+    "icon": "https://gading.dev/favicon.ico",
+    "author": {
+        "name": "Sutan Gading Fadhillah Nasution",
+        "url": "https://instagram.com/gadingnst"
+    },
+    "items": [
+        {
+            "id": "https://gading.dev/id/memahami-javascript-engine",
+            "url": "https://gading.dev/id/memahami-javascript-engine",
+            "title": "Memahami JavaScript Engine",
+            "summary": "Bagaimana JavaScript bekerja di belakang layar?",
+            "date_modified": "2022-09-24T17:00:00.000Z",
+            "author": {
+                "name": "Sutan Gading Fadhillah Nasution",
+                "url": "https://instagram.com/gadingnst"
+            }
+        },
+        {
+            "id": "https://gading.dev/en/understanding-javascript-engine",
+            "url": "https://gading.dev/en/understanding-javascript-engine",
+            "title": "Understanding JavaScript Engine",
+            "summary": "How JavaScript really works behind the scenes?",
+            "date_modified": "2022-09-06T17:00:00.000Z",
+            "author": {
+                "name": "Sutan Gading Fadhillah Nasution",
+                "url": "https://instagram.com/gadingnst"
+            }
+        },
+        {
+            "id": "https://gading.dev/id/pov-tentang-work-life-balance-yang-berbeda",
+            "url": "https://gading.dev/id/pov-tentang-work-life-balance-yang-berbeda",
+            "title": "POV tentang Work Life Balance yang berbeda",
+            "summary": "Work Life Balance selalu diartikan memisahkan antara kehidupan pekerjaan & pribadi agar seimbang dan tidak saling mengganggu. Tapi apakah harus seperti itu? Lalu, bagaimana kita bisa menciptakan Work Life Balance dengan cara yang berbeda?",
+            "date_modified": "2022-03-05T17:00:00.000Z",
+            "author": {
+                "name": "Sutan Gading Fadhillah Nasution",
+                "url": "https://instagram.com/gadingnst"
+            }
+        },
+        {
+            "id": "https://gading.dev/id/meningkatkan-kemampuan-berfikir",
+            "url": "https://gading.dev/id/meningkatkan-kemampuan-berfikir",
+            "title": "Meningkatkan Kemampuan Berfikir dan Problem Solving",
+            "summary": "Ada sebuah cara unik untuk meningkatkan kemampuan berfikir dan problem solving ala Dr. Edward de Bono. Yaitu dengan memiliki \"The Six Thinking Hats\". Apakah itu?",
+            "date_modified": "2021-04-20T17:00:00.000Z",
+            "author": {
+                "name": "Sutan Gading Fadhillah Nasution",
+                "url": "https://instagram.com/gadingnst"
+            }
+        },
+        {
+            "id": "https://gading.dev/id/prestasi-tidak-sama-dengan-manfaat",
+            "url": "https://gading.dev/id/prestasi-tidak-sama-dengan-manfaat",
+            "title": "Prestasi ≠ Manfaat",
+            "summary": "Apakah tujuan kita meraih prestasi? Apakah bedanya prestasi dengan manfaat? Well, ga ada salahnya kamu mengejar prestasi. Namun, pastikan kalau kontribusimu juga bermanfaat buat orang lain.",
+            "date_modified": "2020-09-21T17:00:00.000Z",
+            "author": {
+                "name": "Sutan Gading Fadhillah Nasution",
+                "url": "https://instagram.com/gadingnst"
+            }
+        },
+        {
+            "id": "https://gading.dev/id/iri",
+            "url": "https://gading.dev/id/iri",
+            "title": "IRI",
+            "summary": "Iri adalah sifat manusiawi, tidak ada yang salah dengan iri, tergantung konteks irinya. But just remember, we don't really know about others background.",
+            "date_modified": "2020-04-21T17:00:00.000Z",
+            "author": {
+                "name": "Sutan Gading Fadhillah Nasution",
+                "url": "https://instagram.com/gadingnst"
+            }
+        },
+        {
+            "id": "https://gading.dev/id/implementasi-component-pattern-function-as-children-di-react",
+            "url": "https://gading.dev/id/implementasi-component-pattern-function-as-children-di-react",
+            "title": "Implementasi component pattern \"Function as children\" di React",
+            "summary": "Function as Children adalah salah satu component pattern di React yang bisa kita gunakan, buat apa?",
+            "date_modified": "2020-03-27T17:00:00.000Z",
+            "author": {
+                "name": "Sutan Gading Fadhillah Nasution",
+                "url": "https://instagram.com/gadingnst"
+            }
+        },
+        {
+            "id": "https://gading.dev/id/memahami-konsep-promise-di-javascript",
+            "url": "https://gading.dev/id/memahami-konsep-promise-di-javascript",
+            "title": "Memahami lebih dalam konsep Promise di JavaScript",
+            "summary": "Promise hadir untuk menyelesaikan kasus-kasus pada proses asynchronous di JavaScript. Memahami konsep promise adalah bagian terpenting dalam JavaScript.",
+            "date_modified": "2020-02-07T17:00:00.000Z",
+            "author": {
+                "name": "Sutan Gading Fadhillah Nasution",
+                "url": "https://instagram.com/gadingnst"
+            }
+        },
+        {
+            "id": "https://gading.dev/id/konsep-pada-paradigma-pemrograman-fungsional",
+            "url": "https://gading.dev/id/konsep-pada-paradigma-pemrograman-fungsional",
+            "title": "Konsep dan teknik yang harus diketahui pada paradigma pemrograman fungsional",
+            "summary": "Tidak hanya OOP, paradigma fungsional juga memiliki konsep dan aturan penggunaan yang menarik, apa saja itu ?",
+            "date_modified": "2020-01-17T17:00:00.000Z",
+            "author": {
+                "name": "Sutan Gading Fadhillah Nasution",
+                "url": "https://instagram.com/gadingnst"
+            }
+        },
+        {
+            "id": "https://gading.dev/id/mengenal-higher-order-function-di-javascript-part-2",
+            "url": "https://gading.dev/id/mengenal-higher-order-function-di-javascript-part-2",
+            "title": "Mengenal higher-order function di JavaScript part 2",
+            "summary": "Menggunakan higher-order function dapat mempersingkat kode serta mengubah sudut pandang dan gaya pemrograman kita.",
+            "date_modified": "2019-11-15T17:00:00.000Z",
+            "author": {
+                "name": "Sutan Gading Fadhillah Nasution",
+                "url": "https://instagram.com/gadingnst"
+            }
+        },
+        {
+            "id": "https://gading.dev/id/mengenal-higher-order-function-di-javascript",
+            "url": "https://gading.dev/id/mengenal-higher-order-function-di-javascript",
+            "title": "Mengenal higher-order function di JavaScript",
+            "summary": "Mengenal higher-order function di JavaScript, seperti: map(), filter() dan reduce()",
+            "date_modified": "2019-08-18T17:00:00.000Z",
+            "author": {
+                "name": "Sutan Gading Fadhillah Nasution",
+                "url": "https://instagram.com/gadingnst"
+            }
+        },
+        {
+            "id": "https://gading.dev/id/rencana-bulan-agustus-2019",
+            "url": "https://gading.dev/id/rencana-bulan-agustus-2019",
+            "title": "Rencana bulan agustus 2019",
+            "summary": "Apa yang harus aku lakukan pada bulan agustus ini ?",
+            "date_modified": "2019-08-02T17:00:00.000Z",
+            "author": {
+                "name": "Sutan Gading Fadhillah Nasution",
+                "url": "https://instagram.com/gadingnst"
+            }
+        },
+        {
+            "id": "https://gading.dev/id/masa-depan",
+            "url": "https://gading.dev/id/masa-depan",
+            "title": "Masa Depan",
+            "summary": "Kenapa belajar lebih dalam tentang teknologi ? Apa alasannya ? Well, my code is my future",
+            "date_modified": "2019-05-16T17:00:00.000Z",
+            "author": {
+                "name": "Sutan Gading Fadhillah Nasution",
+                "url": "https://instagram.com/gadingnst"
+            }
+        },
+        {
+            "id": "https://gading.dev/en/will-not-come",
+            "url": "https://gading.dev/en/will-not-come",
+            "title": "Will not Come",
+            "summary": "My bullshit motivation.",
+            "date_modified": "2019-05-06T17:00:00.000Z",
+            "author": {
+                "name": "Sutan Gading Fadhillah Nasution",
+                "url": "https://instagram.com/gadingnst"
+            }
+        },
+        {
+            "id": "https://gading.dev/id/tak-akan-datang",
+            "url": "https://gading.dev/id/tak-akan-datang",
+            "title": "Tak akan datang",
+            "summary": "My bullshit motivation.",
+            "date_modified": "2019-05-06T17:00:00.000Z",
+            "author": {
+                "name": "Sutan Gading Fadhillah Nasution",
+                "url": "https://instagram.com/gadingnst"
+            }
+        },
+        {
+            "id": "https://gading.dev/id/it-fest-bersama-it-polsri",
+            "url": "https://gading.dev/id/it-fest-bersama-it-polsri",
+            "title": "IT FESTIVAL bersama IT POLSRI",
+            "summary": "Dokumentasi ku untuk moment yang tak terlupakan bersama Tim IT POLSRI.",
+            "date_modified": "2018-11-21T17:00:00.000Z",
+            "author": {
+                "name": "Sutan Gading Fadhillah Nasution",
+                "url": "https://instagram.com/gadingnst"
+            }
+        },
+        {
+            "id": "https://gading.dev/id/belajar-pdo-di-php",
+            "url": "https://gading.dev/id/belajar-pdo-di-php",
+            "title": "Belajar PDO di PHP",
+            "summary": "Mengenal apa itu PDO dan bagaimana cara mengimplementasikannya",
+            "date_modified": "2018-10-25T17:00:00.000Z",
+            "author": {
+                "name": "Sutan Gading Fadhillah Nasution",
+                "url": "https://instagram.com/gadingnst"
+            }
+        },
+        {
+            "id": "https://gading.dev/en/text-formatting-examples",
+            "url": "https://gading.dev/en/text-formatting-examples",
+            "title": "Text Formatting Examples",
+            "summary": "Example Text Formatting using Markdown.",
+            "date_modified": "2017-05-06T17:00:00.000Z",
+            "author": {
+                "name": "Sutan Gading Fadhillah Nasution",
+                "url": "https://instagram.com/gadingnst"
+            }
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "astro-resume",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev --port 7000",
+    "start": "astro dev",
+    "generate-pdf": "ts-node --project tsconfig-pdf.json ./scripts/generate-pdf.ts",
+    "generate-pdf:ci": "start-server-and-test 3000 generate-pdf",
+    "build": "astro check && tsc --noEmit && yarn generate-pdf:ci && astro build",
+    "astro": "astro"
+  },
+  "devDependencies": {
+    "@astrojs/tailwind": "^3.0.1",
+    "@fontsource/poppins": "^4.5.10",
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/node": "^18.16.3",
+    "astro": "^2.0.18",
+    "playwright": "^1.37.1",
+    "prettier": "^2.8.8",
+    "prettier-plugin-tailwindcss": "^0.4.1",
+    "start-server-and-test": "^2.0.1",
+    "tailwindcss": "^3.3.3",
+    "ts-node": "^10.9.1"
+  }
+}
