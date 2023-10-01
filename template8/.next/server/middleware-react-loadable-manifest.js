@@ -1,1 +1,0 @@
-self.__REACT_LOADABLE_MANIFEST={"now.tsx -> @/components/base/Content/Disqus":{"id":"now.tsx -> @/components/base/Content/Disqus","files":["static/chunks/src_components_base_Content_Disqus_tsx.js"]}}
