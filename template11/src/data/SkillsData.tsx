@@ -7,7 +7,6 @@ import {
   SiTypescript,
   SiPostman,
   SiBootstrap,
-  SiMaterialui,
   SiPwa,
   SiElectron,
 } from "react-icons/si";
@@ -75,11 +74,6 @@ export const SkillsData: SkillsType[] = [
     name: "Bootstrap",
     icon: <SiBootstrap color='#000000dc' />,
     link: "https://getbootstrap.com/",
-  },
-  {
-    name: "Material-Ui",
-    icon: <SiMaterialui color='#000000dc' />,
-    link: "https://mui.com/",
   },
   {
     name: "PWA",
