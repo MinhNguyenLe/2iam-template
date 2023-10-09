@@ -2,26 +2,29 @@ import { motion } from "framer-motion";
 
 import { EducationCard } from "../../components/EducationCard/EducationCard";
 import { pageVariants, pageTransition } from "../../utils/FramerAnimation";
-import { ExperienceData } from "../../data/ExperienceData";
 import styles from "./experience.module.scss";
+import { useContext } from "react";
+import { GlobalData } from "../../GlobalData";
 
 const eduOpen = "<experience>";
 const eduClose = "</experience>";
 
 const Experience = () => {
+  const data = useContext(GlobalData);
+
   return (
     <div className={styles.education}>
       <motion.div
-        initial='init'
-        animate='anim'
-        exit='last'
+        initial="init"
+        animate="anim"
+        exit="last"
         variants={pageVariants}
         transition={pageTransition}
       >
         <div className={styles.wrapper}>
           <h3 className={styles.eduOpen}>{eduOpen}</h3>
           <div className={styles.center_line}></div>
-          {ExperienceData.map((item, index) => (
+          {data?.experience?.map((item: any, index: number) => (
             <EducationCard
               key={item.title}
               title={item.title}

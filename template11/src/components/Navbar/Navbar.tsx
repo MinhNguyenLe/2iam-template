@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 import { IoMenu, IoClose } from "react-icons/io5";
 
 import { LinksData } from "./LinksData";
@@ -7,6 +7,8 @@ import styles from "./navbar.module.scss";
 
 const Navbar = () => {
   const [isMenuOpen, setIsmenuOpen] = useState(false);
+
+  const { userId } = useParams();
 
   const handleMobileMenuToggle = () => {
     setIsmenuOpen(!isMenuOpen);
@@ -19,7 +21,7 @@ const Navbar = () => {
         <div className={styles.desktopitems}>
           {LinksData.map((link) => (
             <NavLink
-              to={link.linkTo}
+              to={`/${userId}` + link.linkTo}
               key={link.title}
               className={styles.link}
               style={({ isActive }) =>
@@ -44,7 +46,7 @@ const Navbar = () => {
             }
             onClick={handleMobileMenuToggle}
           >
-            <IoMenu size={40} color='#ffffff' />
+            <IoMenu size={40} color="#ffffff" />
           </div>
 
           <div
@@ -55,7 +57,7 @@ const Navbar = () => {
             }
             onClick={handleMobileMenuToggle}
           >
-            <IoClose size={40} color='#ffffff' />
+            <IoClose size={40} color="#ffffff" />
           </div>
         </div>
       </div>
@@ -68,7 +70,7 @@ const Navbar = () => {
       >
         {LinksData.map((link) => (
           <NavLink
-            to={link.linkTo}
+            to={`/${userId}` + link.linkTo}
             key={link.title}
             className={styles.mobileLinks}
             onClick={handleMobileMenuToggle}
