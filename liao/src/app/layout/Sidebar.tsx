@@ -23,7 +23,6 @@ export default function Sidebar({
   handleThemeChange,
   setSelectedIndex,
 }: Props) {
-  const navigate = useNavigate();
   return (
     <Box
       sx={{
@@ -43,6 +42,33 @@ export default function Sidebar({
         justifyContent="center"
         flexDirection="column"
       >
+        <Tooltip
+          title={darkMode ? "Turn on the light" : "Turn off the light"}
+          placement="right"
+          arrow
+        >
+          <Box
+            sx={{
+              flexGrow: 0,
+              fontSize: 24,
+              m: 0.5,
+              color: "#858585",
+              cursor: "pointer",
+              "&:hover": {
+                color: "white",
+              },
+              mt: 1,
+              WebkitTapHighlightColor: "rgba(0,0,0,0)",
+            }}
+            display="flex"
+            justifyContent="center"
+            onClick={handleThemeChange}
+          >
+            {!darkMode ? <DarkModeOutlinedIcon /> : <LightModeOutlinedIcon />}
+          </Box>
+        </Tooltip>
+
+        <Divider sx={{ m: 0.5 }} />
         <Box
           sx={{
             borderLeft: expanded
@@ -130,75 +156,6 @@ export default function Sidebar({
             </Link>
           </Tooltip>
         ))}
-      </Box>
-
-      <Box
-        sx={{ flexGrow: 0, pb: 0.5 }}
-        display="flex"
-        justifyContent="center"
-        flexDirection="column"
-      >
-        <Tooltip
-          title={darkMode ? "Turn on the light" : "Turn off the light"}
-          placement="right"
-          arrow
-        >
-          <Box
-            sx={{
-              flexGrow: 0,
-              fontSize: 24,
-              color: "#858585",
-              cursor: "pointer",
-              "&:hover": {
-                color: "white",
-              },
-              WebkitTapHighlightColor: "rgba(0,0,0,0)",
-            }}
-            display="flex"
-            justifyContent="center"
-            onClick={handleThemeChange}
-          >
-            {!darkMode ? (
-              <Box>
-                <DarkModeOutlinedIcon />
-              </Box>
-            ) : (
-              <Box>
-                <LightModeOutlinedIcon />
-              </Box>
-            )}
-          </Box>
-        </Tooltip>
-        <Tooltip title="Markdown syntax" arrow placement="right">
-          <Link
-            onClick={() => {
-              setSelectedIndex(-1);
-              navigate("/docs");
-            }}
-            underline="none"
-            color="inherit"
-            sx={{ WebkitTapHighlightColor: "rgba(0,0,0,0)" }}
-          >
-            <Box
-              sx={{
-                flexGrow: 0,
-                fontSize: 24,
-                color: "#858585",
-                cursor: "pointer",
-                "&:hover": {
-                  color: "white",
-                },
-                WebkitTapHighlightColor: "rgba(0,0,0,0)",
-              }}
-              display="flex"
-              justifyContent="center"
-            >
-              <Box mt={0.7}>
-                <VscSettingsGear />
-              </Box>
-            </Box>
-          </Link>
-        </Tooltip>
       </Box>
     </Box>
   );

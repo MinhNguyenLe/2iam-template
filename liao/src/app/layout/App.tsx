@@ -19,6 +19,7 @@ import Home from "../pages/Home";
 import { pages } from "../pages/pages";
 import usePageTracking from "../hooks/usePageTracking";
 import { isBrowser } from "react-device-detect";
+import Loader from "../components/Loader";
 
 interface Page {
   index: number;
@@ -222,7 +223,6 @@ export default function App() {
           </Grid>
         </Grid>
       </Container>
-      {/* </Router> */}
     </ThemeProvider>
   );
 }

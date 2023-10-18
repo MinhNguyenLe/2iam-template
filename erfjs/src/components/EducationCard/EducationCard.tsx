@@ -21,7 +21,7 @@ const EducationCard: FC<EducationCardProps> = (props) => {
           <span>{props.date}</span>
         </div>
         {props.details.map((item) => (
-          <p key={item}>◉ {item}</p>
+          <p key={item}>{`◉ ${item}`}</p>
         ))}
       </section>
     </div>
