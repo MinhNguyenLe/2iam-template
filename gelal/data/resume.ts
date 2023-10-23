@@ -8,9 +8,9 @@ import skills from "./resume/skills";
 import about from "./resume/about";
 
 const resume: Resume = {
-  name: "Oguz Gelal",
-  image: "/oguz.jpg",
-  title: "Senior Front-End Engineer",
+  name: "MinhLee",
+  image: "/oguz.jpgx",
+  title: "Senior Software Engineer",
   sections: [
     about,
     education,

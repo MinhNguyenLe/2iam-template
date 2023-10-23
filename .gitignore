@@ -12,6 +12,7 @@ coverage
 nyc_output
 
 dist/
+build/
 
 packages/astro/src/**/*.prebuilt.ts
 !packages/astro/vendor/vite/dist
